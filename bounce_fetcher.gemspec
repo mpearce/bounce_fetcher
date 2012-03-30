@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'tmail', '~> 1.2'
-  s.add_dependency 'bounce-email', '~> 0.0.1'
+  s.add_dependency 'bounce_email', '~> 0.2.2'
 
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'eventmachine'
